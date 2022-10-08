@@ -8,7 +8,6 @@ const custom_style = {
 class ListData extends Component {
   constructor(props) {
     super(props);
-
     this.state = {
       heading: "",
       message: "",
@@ -33,7 +32,7 @@ class ListData extends Component {
         this.setState({
           heading: "The joke you got is",
           message: text,
-          sendOff: "Hope, Kowshik made your day.",
+          sendOff: "Hope Kowshik made your day.",
         });
       })
       .catch(() => {
@@ -72,5 +71,4 @@ class ListData extends Component {
     }
   }
 }
-
 export default ListData;
